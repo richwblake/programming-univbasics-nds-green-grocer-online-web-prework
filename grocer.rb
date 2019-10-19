@@ -101,4 +101,10 @@ def checkout(cart, coupons)
   checkout = apply_coupons( checkout, coupons )
   checkout = apply_clearance( checkout )
   
+  index = 0
+  
+  while index < checkout.size do
+    
+    index += 1
+  end
 end
