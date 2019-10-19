@@ -102,9 +102,10 @@ def checkout(cart, coupons)
   checkout = apply_clearance( checkout )
   
   index = 0
+  grand_total = 0
   
   while index < checkout.size do
-    
+    current_item_total = checkout[index][:price] * checkout[index][:count]
     index += 1
   end
 end
