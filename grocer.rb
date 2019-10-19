@@ -109,4 +109,5 @@ def checkout(cart, coupons)
     grand_total += current_item_total
     cart_index += 1
   end
+  checkout_cart
 end
