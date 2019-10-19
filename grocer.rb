@@ -104,7 +104,7 @@ def checkout(cart, coupons)
   grand_total = 0
   checkout_cart_index = 0
   
-  while checkout_cart_index < cart.size do
+  while checkout_cart_index < checkout_cart.size do
     current_item_total = (cart[cart_index][:price] * cart[cart_index][:count]).round(2)
     grand_total += current_item_total
     cart_index += 1
