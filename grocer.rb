@@ -101,5 +101,7 @@ def checkout(cart, coupons)
   apply_coupons( checkout_cart, coupons )
   apply_clearance ( checkout_cart )
   
-  
+  grand_total = 0
+  cart_index = 0
+  while 
 end
